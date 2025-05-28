@@ -27,7 +27,7 @@ export default function Internationalparticipants() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbyX3rdbl9c4APtjEmexPBXNjxz_PqNPKnyZFUplNifhy91yURB8OE7SJxicO5Q7ryaD/exec";
+      "https://script.google.com/macros/s/AKfycbx-o3JlJ5stXRdATSGqoZud78beUS9tXyCJA8pqXkFjJAk2tEzJ5sLDv7DeLmO2xmme_g/exec";
 
     const form = document.forms["regist-form"];
     var buttonCounter = 0;
@@ -124,6 +124,12 @@ export default function Internationalparticipants() {
                     <option value="">--Choose Competition Type--</option>
                     <option value="Offline Competition">
                       Offline Competition
+                    </option>
+                    <option value="Offline Competition + Excursion">
+                      Offline Competition + Excursion
+                    </option>
+                    <option value="Fullpack">
+                      Fullpack
                     </option>
                   </select>
                 </div>
@@ -457,18 +463,6 @@ export default function Internationalparticipants() {
                     <option value="Previous Event">Previous Event</option>
                     <option value="Etc">Etc</option>
                   </select>
-                </div>
-                <div className="input-box">
-                  <label for="FILE" className="form-label">
-                    If you received free registration from a previous event or school visit, please attach documentary proof.{" "}
-                  </label>
-                  <input
-                    type="url"
-                    id="FILE"
-                    name="FILE"
-                    className="form-control"
-                    placeholder="Upload Link File Drive"
-                  />
                 </div>
               </div>
               {/* GENERAL INFORMATION END */}

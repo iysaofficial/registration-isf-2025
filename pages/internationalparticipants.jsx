@@ -20,7 +20,7 @@ export default function Internationalaparticipants() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbyKA0M6uSSS_Pv4nkxq5_AkngxO27N3pKWCmpD5GVcugTJFvKtGdc5PAC2LBH_-_4Zz/exec";
+      "https://script.google.com/macros/s/AKfycbw95-9Hsd_UJx9kPe5dDESjPw7nX7w6ZfwMnNR6vrxtGug0iJGU7Kel24l3ol-QkIaQKw/exec";
 
     const form = document.forms["regist-form"];
     var buttonCounter = 0;
@@ -117,6 +117,12 @@ export default function Internationalaparticipants() {
                     <option value="">--Choose Competition Type--</option>
                     <option value="Offline Competition">
                       Offline Competition
+                    </option>
+                    <option value="Offline Competition + Excursion">
+                      Offline Competition + Excursion
+                    </option>
+                    <option value="Fullpack">
+                      Fullpack
                     </option>
                   </select>
                 </div>
