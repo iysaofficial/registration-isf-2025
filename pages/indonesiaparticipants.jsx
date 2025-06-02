@@ -147,31 +147,31 @@ export default function Internationalparticipants() {
                   >
                     <option value="">--Choose Competition Category--</option>
                     <option value="Spelling Bee">
-                      Spelling Bee
+                      Spelling Bee - (For Elementary School & Junior High School)
                     </option>
                     <option value="Speech Contest">
-                      Speech Contest
+                      Speech Contest - (For Elementary School, Junior High School, Senior High School, University)
                     </option>
                     <option value="Astronomy Competition">
-                      Astronomy Competition
+                      Astronomy Competition - (For Senior High School & University)
                     </option>
                     <option value="Business Competition">
-                      Business Competition
+                      Business Competition - (For Senior High School & University)
                     </option>
                     <option value="Economic Competition">
-                      Economic Competition
+                      Economic Competition - (For Senior High School & University)
                     </option>
                     <option value="Mathematic Competition">
-                      Mathematic Competition
+                      Mathematic Competition - (For Senior High School & University)
                     </option>
                     <option value="Biology Competition">
-                      Biology Competition
+                      Biology Competition - (For Senior High School & University)
                     </option>
                     <option value="Chemistry Competition">
-                      Chemistry Competition
+                      Chemistry Competition - (For Senior High School & University)
                     </option>
                     <option value="Physics Competition">
-                      Physics Competition
+                      Physics Competition - (For Senior High School & University)
                     </option>
                   </select>
                 </div>
