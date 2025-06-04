@@ -180,9 +180,9 @@ export default function Internationalaparticipants() {
                     <p>
                     Noted: Input the name of the team leader and team members with the team leaders name at the beginning, with the following format:
                     </p>
-                    <p>Note: maximum 1 members + 1 team leader</p>
                     <h6>Kamal Putra</h6>
                     <h6>Ranu Ramadhan</h6>
+                    <p>Noted: The team consists of 2 people, except for Spelling Bee and Speech contest participants are individuals.</p>
                   </label>
                   <textarea
                     type="text"
